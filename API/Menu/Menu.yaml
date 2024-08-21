@@ -1,0 +1,107 @@
+- name: Product management
+  icon: fab fa-product-hunt
+  items:
+    - name: Product
+      icon: fab fa-product-hunt
+      route: Products
+- name: Building Management
+  icon: fas fa-building
+  items:
+    - name: Building
+      description: Building management and administration.
+      route: BUILDING
+      icon: fas fa-city
+    - name: Building Category
+      description: Building Category management and administration.
+      route: BUILDING_CATEGORY
+      icon: fas fa-layer-group
+    - name: Building Selection
+      description: Building Selection management and administration.
+      route: BUILDING_SELECTION
+      icon: fas fa-check-square
+- name: Project Management
+  icon: fas fa-project-diagram
+  items:
+    - name: Project
+      description: Project management and administration.
+      route: PROJECT
+      icon: fas fa-tasks
+    - name: Project Category
+      description: Project Category management and administration.
+      route: PROJECT_CATEGORY
+      icon: fas fa-clipboard-list
+    - name: Project Milestone
+      description: Project Milestone management and administration.
+      route: PROJECT_MILESTONE
+      icon: fas fa-flag-checkered
+- name: Asset Management
+  icon: fas fa-boxes
+  items:
+    - name: Equipment
+      description: Equipment management and administration.
+      route: EQUIPMENT
+      icon: fas fa-cogs
+    - name: Spare Part
+      description: Spare Part management and administration.
+      route: SPARE_PART
+      icon: fas fa-tools
+    - name: Spare Part Counting List
+      description: Spare Part Counting List management and administration.
+      route: SPARE_PART_COUNTING_LIST
+      icon: fas fa-list-ol
+- name: Document Management
+  icon: fas fa-file-alt
+  items:
+    - name: Document
+      description: Document management and administration.
+      route: DOCUMENT
+      icon: fas fa-file-alt
+    - name: Document Category
+      description: Document Category management and administration.
+      route: DOCUMENT_CATEGORY
+      icon: fas fa-folder
+    - name: Document Type
+      description: Document Type management and administration.
+      route: DOCUMENT_TYPE
+      icon: fas fa-file-signature
+- name: Reporting and Analytics
+  icon: fas fa-chart-bar
+  items:
+    - name: Report
+      description: Report management and administration.
+      route: REPORT
+      icon: fas fa-file-invoice
+    - name: Aggregated Counter
+      description: Aggregated Counter management and administration.
+      route: AGGREGATED_COUNTER
+      icon: fas fa-calculator
+- name: System Configuration
+  icon: fas fa-cogs
+  items:
+    - name: Setting
+      description: Setting management and administration.
+      route: SETTING
+      icon: fas fa-cog
+    - name: Server
+      description: Server management and administration.
+      route: SERVER
+      icon: fas fa-server
+    - name: Scheduled Job
+      description: Scheduled Job management and administration.
+      route: SCHEDULED_JOB
+      icon: fas fa-calendar-check
+- name: Miscellaneous
+  icon: fas fa-ellipsis-h
+  items:
+    - name: Language
+      description: Language management and administration.
+      route: LANGUAGE
+      icon: fas fa-language
+    - name: Postal Code
+      description: Postal Code management and administration.
+      route: POSTAL_CODE
+      icon: fas fa-envelope
+    - name: API Client
+      description: API Client management and administration.
+      route: API_CLIENT
+      icon: fas fa-code

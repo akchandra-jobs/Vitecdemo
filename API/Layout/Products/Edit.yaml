@@ -1,0 +1,33 @@
+- label: Product details
+  dataType: section
+  column: 12
+  fields:
+    - fieldName: ModelId
+      dataType: string
+      required: false
+      length: 40
+      label: Model Id
+      column: 4
+    - fieldName: ProjectId
+      dataType: string
+      required: false
+      length: 40
+      label: Project Id
+      column: 4
+    - fieldName: ObjectId
+      dataType: numeric
+      required: false
+      label: Object Id
+      column: 4
+    - fieldName: JsonData
+      dataType: string
+      label: JsonData
+      entityName: null
+      column: 12
+    - fieldName: IfcType
+      dataType: string
+      required: false
+      length: 100
+      label: Ifc Type
+      column: 4
+  showTitle: true
